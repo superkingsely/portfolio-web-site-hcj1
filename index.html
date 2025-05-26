@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio web full </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app">
+        <div class="bg" >
+            <header>
+                <div class="header-content">
+                    <span class="logo">
+                        Logo
+                    </span>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#services">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main>
+                <section id="home">
+                    <div class="hero-section-content section-content ">
+                        <div class="header-text">
+                            <span class="p">
+                                FullStack Dev
+                            </span>
+                            <div class="h1">
+                                Hi, I'm <span>Onwumelu Chijioke</span> <br>  From Lagos Nigeria
+                            </div>
+                        </div>
+                        <div class="action-btn">
+                            <button>Download cv</button>
+                            
+                            <button>
+                                <a href="#contact">Hire Me</a>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <!-- ---about -->
+                <section id="about">
+                    <div class="about-section-content section-content">
+                        <div class="row">
+                            <div class="col-1">
+                                <div class="about-img">
+                                    <img src="./images/about.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="about-h1">
+                                    <span>About Me</span>
+                                </div>
+                                <div class="about-p">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quidem nesciunt accusantium eos fugiat deserunt, earum magnam distinctio vero libero adipisci id. Adipisci facere voluptatum rerum praesentium dolorem vel ducimus!</p>
+                                </div>
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link " onclick="opentab('skills')" >Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')"  >Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')"  >Education</p>
+                                </div>
+                                <!-- skills -->
+                                <div class="tab-contents active-tab " id="skills" >
+                                    <ul>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                    </ul>
+                                </div>
+                                <!-- experience -->
+                                <div class="tab-contents" id="experience" >
+                                    <ul>
+                                        <li><span>experience</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                    </ul>
+                                </div>
+                                <!-- education -->
+                                <div class="tab-contents" id="education" >
+                                    <ul>
+                                        <li><span>Education</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                        <li><span>UI|uX</span> <br>designing web app </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer>
+    
+            </footer>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
